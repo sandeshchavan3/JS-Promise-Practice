@@ -28,8 +28,6 @@ h1{
 .user-text{
     width: 300px;
     padding: 5px 10px;
-    border: 1px solid black;
-    border-radius: 3px;
     font: 16px sans-serif;
 }
 
@@ -37,9 +35,10 @@ h1{
     background-color: #18BC9C;
     color: white;
     border-radius: 4px;
-    height: 30px;
-    width: 70px;
+    padding: 7px 10px;
+    width: max-content;
     border: none;
+    font-size: 16px;
 }
 
 .hidden{
