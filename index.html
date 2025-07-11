@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Get User Info</h1>
+      <div class="user-div">
+        <input
+          type="text"
+          name="user-text"
+          class="user-text"
+          id="userId"
+          placeholder="Enter User ID"
+        />
+        <button class="btn" onclick="getUser()">Get User</button>
+      </div>
+      <div class="errorDiv hidden" id="errorDiv">Please enter a User ID between 1 to 208.</div>
+      <div class="user-info hidden" id="userInfo">
+        <div id="img-div" class="img-div"></div>
+       
+          <p class="field-name">Id :</p>
+          <p id="id-div"></p>
+        
+          <p class="field-name">Name :</p>
+          <p id="name-div"></p>
+        
+          <p class="field-name">Age :</p>
+          <p id="age-div"></p>
+       
+          <p class="field-name">Gender :</p>
+          <p id="gender-div"></p>
+        
+          <p class="field-name">Email :</p>
+          <p id="email-div"></p>
+       
+        
+          <p class="field-name">Phone :</p>
+          <p id="phone-div"></p>
+        
+
+        <p class="field-name">Birthdate :</p>
+        <p id="birth-div"></p>
+
+        
+          <p class="field-name">Address :</p>
+          <p id="add-div"></p>
+        
+          <p class="field-name">Experience :</p>
+          <p id="exp-div"></p>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
